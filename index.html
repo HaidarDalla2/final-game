@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لعبة تعليمية للأطفال</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="laoderContainer">
+        <h1>Loading ... </h1>
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="" id="overLayOne"></div>
+        <div class="" id="overLayTwo"></div>
+        <h1 class="qustion">Whats That ? </h1>
+        <h2 class="score"> Score : <span class="scor-count">3</span> </h2>
+        <img class="photo" src="./img/cheese.jfif" data-name="cheese" alt="cheese">
+
+        <div class="all-ansurs">
+            <button onclick="handlUnser(event)" unsur="dolphin" class="ansur">its a
+                <span class="unserText">dolphin</span> </button>
+            <button onclick="handlUnser(event)" unsur="cheese" class="ansur">its a
+                <span class="unserText">cheese</span>
+            </button>
+        </div>
+        <audio id="audio" src="./audio/صوت فرحة اطفال .mp3"></audio>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
